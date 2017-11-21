@@ -41,7 +41,7 @@ public class SecondChoix extends AppCompatActivity {
     }
 
     public void ouvrir(String choix){
-        Intent Resultat = new Intent(this, com.example.damien.montyhall.Resultat.class);
+        Intent Resultat = new Intent(this, Resultat.class);
         Resultat.putExtra("choix",choix);
         startActivity(Resultat);
 
